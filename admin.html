@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel Admin</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Panel Admin</h1>
+  </header>
+  <section id="formulario">
+    <div id="form">
+      <label for="Nombre">Nombre</label>
+      <input type="text" placeholder="Ej: Ibuprofeno" id="nombre"><br />
+      
+      <label for="Presentación">Presentación</label>
+      <input type="text" id="presentacion" placeholder="Ej: blister, crema, frasco"><br />
+      
+      <label for="Dosis">Dosis</label>
+      <input type="text" id="dosis" placeholder="Ej: 500mg"><br />
+      
+      <label for="Precio">Precio</label>
+      <input type="text" id="precio" placeholder="Ej: 250CUP"><br />
+      <label for="estado">Estado</label>
+      <select name="Estado" id="estado">
+        <option value="Disponible">Disponible</option>
+        <option value="Próximamente">Próximamente</option>
+      </select><br />
+      
+      <label for="Fecha">Fecha</label>
+<input type="text" id="fecha" placeholder="Ej:Entra en un mes">
+<button id="guardar" type="submit">Guardar</button>
+<input type="text" id="buscador-admin" placeholder="Busca un medicamento...">
+    </div>
+  </section>
+  
+  <section id="lista">
+    <div id="lista-admin">
+      
+    </div>
+  </section>
+  
+  <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-firestore-compat.js"></script>
+  <script src="admin.js"></script>
+  <div id="toast"></div>
+</body>
+</html>
