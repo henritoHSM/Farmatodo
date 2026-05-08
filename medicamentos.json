@@ -1,0 +1,18 @@
+[
+  {
+    "Nombre": "Ibuprofeno",
+    "Presentacion": "Blíster",
+    "Dosis": "600mg",
+    "Precio": "250",
+    "Estado": "Disponible",
+    "Fecha": ""
+  },
+  {
+    "Nombre": "Paracetamol",
+    "Presentacion": "Blíster",
+    "Dosis": "500mg",
+    "Precio": "150",
+    "Estado": "Disponible",
+    "Fecha": ""
+  }
+]

@@ -1,9 +1,10 @@
-const CACHE_NAME = 'farmatodo-v1';
+const CACHE_NAME = 'farmatodo-v2';
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/styles.css',
-    '/app.js'
+    '/Farmatodo/',
+    '/Farmatodo/index.html',
+    '/Farmatodo/styles.css',
+    '/Farmatodo/app.js',
+    '/Farmatodo/medicamentos.json'
 ];
 
 self.addEventListener('install', function(event) {

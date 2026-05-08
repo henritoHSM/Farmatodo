@@ -1,34 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Farmacia</title>
+    <title>FarmaTodo</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-    <h1>💊 FarmaTodo</h1>
-    <p>El más barato de Florida</p>
-</header>
-<section>
-    <div>
-        <input type="text" placeholder="Busca tu medicamento..." id="buscador">
-        <p>Cargando medicamentos...</p>
-    </div>
+        <h1>💊 FarmaTodo</h1>
+        <p>El más barato de Florida</p>
+    </header>
+    <section>
+        <div>
+            <input type="text" placeholder="Busca tu medicamento..." id="buscador">
+            <p>Cargando medicamentos...</p>
+        </div>
+        <div id="lista-medicamentos"></div>
+    </section>
 
-    <div id="lista-medicamentos">
-
-    </div>
-</section>
-    
-    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-firestore-compat.js"></script>
     <script src="app.js"></script>
     <script>
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js');
-    }
-</script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/Farmatodo/sw.js');
+        }
+    </script>
 </body>
 </html>
